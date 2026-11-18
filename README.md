@@ -2,13 +2,11 @@
 
 **用中文解释安全发现，用原始证据支撑结论。**
 
-基于 [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) 的小幅中文适配。独立社区版本，非官方。
-
-## 上游能力保留
+## 功能与流程
 
 源码优先的防御性审查、guidance 与完整审计模式、六阶段工作流、信任边界、独立验证、隔离要求、结构化报告及覆盖检查。原正文和 19 份配套文件保留，包括 schema、校验器与其上游测试文件。
 
-## 中文补充
+## 中文支持
 
 - 已确认、待验证、已排除、未完成四种状态的中文解释，原 JSON 字段与枚举不改。
 - 中文报告按主体、输入、边界、资源和证据说明具体发现。
@@ -25,7 +23,9 @@ npx skills add batespaige357-tech/security-audit-cn --skill security-audit-cn
 
 完整工作流需要适用的协作与 OS 隔离能力；报告校验器需要 Node.js。缺少执行控制时只做源代码分析并说明待验证内容。安装不自动执行目标代码、扫描线上服务或发送报告。没有示例网页、效果截图或前后对比。
 
-## 来源与验证
+## 来源与许可
+
+基于 [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)，由本仓库维护。
 
 MIT，保留 Cloudflare, Inc. 版权和完整许可。[CHANGES.md](CHANGES.md) 记录来源、改动和检查。
 

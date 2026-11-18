@@ -194,7 +194,7 @@ Do not end the run before one of exactly two terminal states: (a) all Phase 6 ar
 
 ## 中文审计交付 — security-audit-cn 新增
 
-独立社区适配；上游模式选择、六阶段流程、独立验证、隔离与证据门槛保持不变，不代表 Cloudflare 官方版本。
+上游模式选择、六阶段流程、独立验证、隔离与证据门槛保持不变。
 
 ### 中文沟通与机器记录分开
 
